@@ -1,0 +1,25 @@
+name: HPE-PiggyCrates
+main: DaPigGuy\PiggyCrates\PiggyCrates
+version: 2.0.1
+api: 3.10.1
+load: POSTWORLD
+author: DaPigGuy
+softdepend: ["PiggyCustomEnchants"]
+permissions:
+  piggycrates:
+    default: false
+    description: "Use everything in PiggyCrates"
+    children:
+      piggycrates.command:
+        default: op
+        description: "Use all PiggyCrates commands"
+        children:
+          piggycrates.command.crate:
+            default: op
+            description: "Use /crate"
+          piggycrates.command.key:
+            default: op
+            description: "Use /key"
+          piggycrates.command.keyall:
+            default: op
+            description: "Use /keyall"
