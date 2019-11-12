@@ -1,0 +1,246 @@
+crates:
+  miner:
+    drops:
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 3
+        chance: 15
+      - name: "§eMiner§7 Sword"
+        id: 276
+        meta: 0
+        amount: 1
+        chance: 10
+        enchantments:
+          sharpness:
+            level: 1
+      - name: "§eMiner§7 Helmet"
+        id: 310
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 1 
+      - name: "§eMiner§7 Chestplate"
+        id: 311
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 1
+      - name: "§eMiner§7 Leggings"
+        id: 312
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 1 
+      - name: "§eMiner§7 Boots"
+        id: 313
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 1
+      - name: "Obsidian"
+        id: 49
+        meta: 0
+        amount: 32
+        chance: 10            
+      - name: "§5Hero§7 Apple"
+        id: 466
+        meta: 0
+        amount: 1
+        chance: 5
+        enchantments:
+          protection:
+            level: 1 
+    amount: 1
+    commands: [""]
+    floating-text: "§l§eMiner§7 Crate"
+  vote:
+    drops:
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 3
+        chance: 15
+      - name: "§aVote§7 Sword"
+        id: 276
+        meta: 0
+        amount: 1
+        chance: 10
+        enchantments:
+          sharpness:
+            level: 1
+      - name: "§aVote§7 Helmet"
+        id: 310
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 2
+      - name: "§aVote§7 Chestplate"
+        id: 311
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 1        
+      - name: "§aVote§7 Leggings"
+        id: 312
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 1        
+      - name: "§aVote§7 Boots"
+        id: 313
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 2        
+      - name: "§5Hero§7 Apple"
+        id: 466
+        meta: 0
+        amount: 1
+        chance: 5
+      - name: "Obsidian"
+        id: 49
+        meta: 0
+        amount: 32
+        chance: 10
+    amount: 1
+    commands: [""]
+    floating-text: "§l§aVote§7 Crate"
+  exotic:
+    drops:
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 3
+        chance: 15
+      - name: "§5Exotic§7 Sword"
+        id: 276
+        meta: 0
+        amount: 1
+        chance: 10
+        enchantments:
+          sharpness:
+            level: 2
+      - name: "Obsidian"
+        id: 49
+        meta: 0
+        amount: 32
+        chance: 10
+      - name: "§5Exotic§7 Helmet"
+        id: 310
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 2
+      - name: "§5Exotic§7 Chestplate"
+        id: 311
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 2
+      - name: "§5Exotic§7 Leggings"
+        id: 312
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 2
+      - name: "§5Exotic§7 Boots"
+        id: 313
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 2
+      - name: "§5Hero§7 Apple"
+        id: 466
+        meta: 0
+        amount: 1
+        chance: 5
+    amount: 1
+    commands: [""]
+    floating-text: "§l§5Exotic§7 Crates"
+  legendary:
+    drops:
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 3
+        chance: 15
+      - name: "§cLegendary§7 Sword"
+        id: 276
+        meta: 0
+        amount: 1
+        chance: 10
+        enchantments:
+          sharpness:
+            level: 3
+          lightning:
+            level: 1        
+      - name: "Obsidian"
+        id: 49
+        meta: 0
+        amount: 32
+        chance: 10        
+      - name: "§cLegendary§7 Helmet"
+        id: 310
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 3
+      - name: "§cLegendary§7 Chestplate"
+        id: 311
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 3
+      - name: "§cLegendary§7 Leggings"
+        id: 312
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 3
+      - name: "§cLegendary§7 Boots"
+        id: 313
+        meta: 0
+        amount: 1
+        chance: 15
+        enchantments:
+          protection:
+            level: 3
+      - name: "§5Hero§7 Apple"
+        id: 466
+        meta: 0
+        amount: 1
+        chance: 5
+    amount: 1
+    commands: ["say {PLAYER} has opened an Mythic Crate"]
+    floating-text: "§l§cLegendary§7 Crate"
